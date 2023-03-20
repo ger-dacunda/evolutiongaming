@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,700;1,800;1,900&display=swap');
+
+html {
+  position: relative;
+}
+img {
+  max-width: 100%;
+}
+body {
+  color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-weight: 900;
+}
+.container-fluid {
+  padding: 0 1em;
+}
+.container {
+  margin: 0 auto;
+  max-width: 996px;
+}
+
+.splash {
+  	background: url("../assets/img/bg-masthead.jpg") fixed center; 
+  	background-size: cover;
+	padding-top: 13rem;
+  	/*padding-bottom: calc(10rem - 4.5rem);
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-attachment: scroll;
+  	background-size: cover;*/
+}
+.splash .container {
+  height: 100vh; 
+}
+.profile-image {
+  display: block;
+  max-width: 450px;
+  margin: 0 auto 1em;
+  width: 100%;
+}
+.splash h1 {
+  font-size: 2em;
+  margin-bottom: .15em;
+  text-align: center;
+}
+.splash h1 {
+    margin-top: 40px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255) !important;   
+}
+.features img {
+  display: block;
+  margin: 0 auto 1em;
+  max-width: 450px;
+}
+.features .col-3 {
+  margin: 3em auto;
+  width: 100%;
+}
+/* ========================
+Media Queries
+======================== */
+@media (min-width: 768px) {
+  
+  .splash h1 {
+	color: #fff !important;
+	margin-top: 40px;
+	font-size: 40px!important;
+	font-family: 'Montserrat', sans-serif;
+	  font-weight: 600;
+  } 
+  .splash .lead {
+    font-size: 3em;
+  }
+  .features .col-3 {
+    float: left;
+    margin: 2em 5% 0 0;
+    padding: 0 1em;
+    width: 30%;
+  }
+  .features .col-3:last-of-type {
+    margin-right: 0;
+  }
+  
+}
+.logo{
+	width: 40%!important;
+}
